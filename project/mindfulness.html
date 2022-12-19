@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+          #nav1{
+        height: 40px;
+        background-color: rgb(97, 97, 97);
+    
+        }
+        #nav1 ul{
+           list-style: none;
+           font-size: large;
+            margin-left: 650px;
+            margin-right: 620px;
+         text-align: center;
+             display: flex;
+             padding: 10px 20px;
+             justify-content: space-between;
+        } 
+        .second {
+            display: grid;
+            /* border: 1px solid red; */
+            grid-template-columns: repeat(2,1fr);
+            width: 1400px;
+            margin-left: 60px;
+        }
+        .rep{
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            width: 650px;
+            height: 220px;
+            /* border: 1px solid red; */
+            margin-left: 10px;
+            margin-top: 40px;
+        }
+        .second img{
+            width: 190px;
+            height: 195px;
+            margin-left: 10px;
+            margin-top: 12px;
+        }
+      .second h4{
+        /* border: 1px solid red; */
+        width: 220px;
+        height: 30px;
+        font-size: 25px;
+        margin: -190px 0px 25px 220px;
+        font-weight: 100;
+      }
+      .second p {
+        margin-top: 70px;
+        width: 425px;
+        height: 120px;
+        margin-right: 0px;
+        margin-left: 220px;
+        font-weight: 100;
+        margin-top: -10px;
+        /* border: 1px solid red; */
+      }
+      .packs{
+        width: fit-content;
+        height: fit-content;
+        margin-left: 220px;
+        margin-top: -35px;
+        font-size: 17px;
+        /* margin-bottom: 40px; */
+        font-weight: 100;
+        /* border: 1px solid red; */
+         
+      }
+      .rep1{
+        border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep2{
+        border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+         
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep3{
+        border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+         
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep4{
+        border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+         
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep5{
+        border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+         
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep6{
+        border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+         
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep7{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep8{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep9{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep10{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep11{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep12{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep13{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep14{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep15{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep16{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep17{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep18{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep19{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep20{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep21{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep22{
+          border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ 
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep23{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep24{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+
+     .rep25{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+
+     .rep26{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep27{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep28{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep29{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep30{
+          border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ 
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep31{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+     .rep32{
+           border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+         width: 650px;
+         height: 220px;
+         /* border: 1px solid red; */
+         margin-left: 10px;
+         margin-top: 40px;
+     }
+
+      .first {
+        margin-left: 100px;
+      }
+      .bottom{
+    width: 100%;
+    background-color: rgb(6, 6, 6);
+}
+.bottom >h1{
+    margin-left: 10%;
+    padding-top: 30px;
+    color: white;
+}
+.bottom >h4{
+    margin-left: 10%;
+    color: white;
+}
+.bottom >div{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.bottom>div li{
+    padding: 20px;
+    font-size: 20px;
+    padding-left: 1%;
+    color: rgb(218, 214, 214);
+}
+.bottom>div >ul{
+    margin-left: 1%;
+}
+.bottom div ul >hr{
+    width: 90%;
+    border: 0;
+    height: .5px;
+    background: rgb(189, 189, 189);
+    opacity: 0.2;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+       
+        <div class="logo"> <img src="www.cult.fit-images-v4awye/logo1.png" alt=""></div>
+        <ul>
+          <li><a href="fitness.html">FITNESS</a></li>
+          <li><a href="care.html">CARE</a></li>
+          <li><a href="mind.html">MIND</a></li>
+          <li><a href="index.html">STORE</a></li>
+         
+        </ul>
+        <select name="location" id="">
+          <option value="">location</option>
+          <option value="">Delhi</option>
+          <option value="">gurgaon</option>
+        </select>
+        <button>get app</button>
+    
+      </nav>
+    <div id="nav1">
+        <nav>
+            <ul>
+                <li>Therapy</li>
+                <li>Mindfulness</li>
+            </ul>
+        </nav>
+        
+    </div>
+    <div class="first">
+        <h2>Mindfulness Library</h2>
+        <p>Access our pre-recorded meditation sessions, at your convenience</p>
+    </div>
+    <div class="second">
+        <div class="rep">
+            <img src="./00504b6d-fa0d-47cf-8cae-8f1f61cdc171.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+            
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+            <h6 class="packs">9 packs</h6>
+        </div>
+            
+        </div>
+        <div class="rep1">
+            <img src="./00a5f2c0-5e37-45fb-b869-f880d17d5763.webp" alt=""  >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep2">
+            <img src="./8e929664-cd36-4b5d-8c6c-ca135c678a84.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep3">
+            <img src="./5992b24c-f970-4beb-a4fe-8f0e265b67d9.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep4">
+            <img src="./5e9f8ee5-83dd-4dca-beca-61885323ce3c.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+            
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+            <h6 class="packs">9 packs</h6>
+        </div>
+            
+        </div>
+        <div class="rep5">
+            <img src="./a5748b24-ddea-429e-8dea-51fa60c258c6.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep6">
+            <img src="./9ce1d9a2-d3c6-4a19-91bd-028d52f58c84.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep7">
+            <img src="./00504b6d-fa0d-47cf-8cae-8f1f61cdc171.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep8">
+            <img src="./f5e214b7-243b-4fec-b821-8e6400d49213.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+            
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+            <h6 class="packs">9 packs</h6>
+        </div>
+            
+        </div>
+        <div class="rep9">
+            <img src="./00a5f2c0-5e37-45fb-b869-f880d17d5763.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep10">
+            <img src="./5964450b-e7d3-468a-8217-9dec24b0be93.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep11">
+            <img src="./2688cb1e-3533-484e-b2dc-e83017199315.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep12">
+            <img src="./1a2d8f7e-2c24-4cbf-88be-e2cf266dfa23.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+            
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+            <h6 class="packs">9 packs</h6>
+        </div>
+            
+        </div>
+        <div class="rep13">
+            <img src="./5964450b-e7d3-468a-8217-9dec24b0be93.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep14">
+            <img src="./00504b6d-fa0d-47cf-8cae-8f1f61cdc171.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep15">
+            <img src="./00a5f2c0-5e37-45fb-b869-f880d17d5763.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep16">
+            <img src="./18a8d3b2-d262-4f78-908b-79a55a40ef68.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+            
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+            <h6 class="packs">9 packs</h6>
+        </div>
+            
+        </div>
+        <div class="rep17">
+            <img src="./936125f4-ffc8-4e52-943b-efe9d068b758.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep18">
+            <img src="./94cf3985-f59e-48b3-88b3-fb1fef54d39a.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep19">
+            <img src="./9355d11a-f088-4f10-b9df-72ea3ecf8e0b.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep20">
+            <img src="./83a5a31b-68f8-4acd-b6ff-d7bb8430ecd5.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+            
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+            <h6 class="packs">9 packs</h6>
+        </div>
+            
+        </div>
+        <div class="rep21">
+            <img src="./84248218-f8c0-44d8-b2d6-be415b742b9a.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep22">
+            <img src="./5e9f8ee5-83dd-4dca-beca-61885323ce3c.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep23">
+            <img src="./5c301b30-9fb3-434e-bdfb-47d15e240b47.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep24">
+            <img src="./5992b24c-f970-4beb-a4fe-8f0e265b67d9.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+            
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+            <h6 class="packs">9 packs</h6>
+        </div>
+            
+        </div>
+        <div class="rep25">
+            <img src=".//5964450b-e7d3-468a-8217-9dec24b0be93.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep26">
+            <img src="./57ee03e5-6515-4892-9729-718edbc7505f.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep27">
+            <img src="./54117647-b2c9-4800-9370-18fb650fe4ba.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep28">
+            <img src=".//43078998-5c3c-4608-beac-e3eeece27695.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+            
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+            <h6 class="packs">9 packs</h6>
+        </div>
+            
+        </div>
+        <div class="rep29">
+            <img src="./3d8bf8ac-64bf-4fc0-80b0-dc64ba6a831e.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep30">
+            <img src="./3d8bf8ac-64bf-4fc0-80b0-dc64ba6a831e.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+        <div class="rep31">
+            <img src="./2688cb1e-3533-484e-b2dc-e83017199315.webp" alt=""
+            >
+            <div>
+            <h4>One Rep at a time</h4>
+        </div>
+           <div>
+            <p>Join podcast host, Deepak Gopalakrishnan aka Chuck, in his quest to build a fitness habit for life. Tune in every weekday for invigorating discussions on curated health & fitness topics, including interviews with fitness & nutrition experts, sleep scientists, even former Olympians! </p>
+        </div>
+            <br> 
+            <h6 class="packs">9 packs</h6>
+        </div>
+    
+    </div>
+    <div class="bottom">
+        <h1 class="faqs">FAQS</h1>
+        <h4>7 QUESTIONS</h4>
+        <div>
+            <ul>
+                <li>What is cultsport and what does it offer?</li>
+                <hr>
+                <li>What makes cultsport special?</li>
+                <hr>
+                <li>How do I track my cultsport order?</li>
+                <hr>
+                <li>How do I cancel my cultsport Order?</li>
+                <hr>
+                <li>I am not satisfied with my cultsport product. Can I return or exchange it?</li>
+                <hr>
+                <li>How can I pay for my cultsport order?</li>
+                <hr>
+                <li>How can I contact the delivery guy?</li>
+                <hr>
+            </ul>
+            <br>
+            <br>
+        </div>
+    </div>
+
+<footer>
+    <div id="footer">
+        <div>
+            <div id="footer1">
+                <img src="https://static.cure.fit/assets/images/cult-logo-white.svg" alt="">
+                <p>At cult.fit, we make group workouts fun, daily food healthy & tasty, mental fitness
+                    easy with
+                    yoga &
+                    meditation, and
+                    medical & lifestyle care hassle-free. #BeBetterEveryDay</p>
+            </div>
+            <div id="footer2">
+                <ul>
+                    <li>CONTACT US</li>
+                    <li>BLOG</li>
+                    <li>PARTNER.FIT</li>
+                    <li>TALKS</li>
+                    <li>CAREERS</li>
+                </ul>
+            </div>
+            <div id="footer3">
+                <ul>
+                    <li>CULTFIT FOR BUSINESSES</li>
+                    <li>CULT FRANCHISE</li>
+                    <li>CULT PASS NETWORK</li>
+                    <li>CORPORATE PARTNERSHIPS</li>
+                </ul>
+            </div>
+            <div id="footer4">
+                <img style="margin-top: 30px;" src="https://static.cure.fit/assets/images/app-store.svg"
+                    alt=""><br>
+                <img src="https://static.cure.fit/assets/images/play-store.svg" alt="">
+            </div>
+        </div>
+        <div id="footerEnd">
+            <div id="contact">
+                <div>Contect Us</div>
+                <div>FAQ</div>
+                <div>Term & Conditions</div>
+                <div>Privacy Policy</div>
+                <div>Refund Policy</div>
+            </div>
+            <div id="icon">
+                <div><img src="https://static.cure.fit/assets/images/facebook_icon_white.svg" alt="">
+                </div>
+                <div><img src="https://static.cure.fit/assets/images/twitter_icon_white.svg" alt="">
+                </div>
+                <div><img src="https://static.cure.fit/assets/images/instagram_icon_white.svg" alt="">
+                </div>
+                <div><img src="https://static.cure.fit/assets/images/youtube_icon_white_1.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

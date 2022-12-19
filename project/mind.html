@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #nav1{
+        height: 40px;
+      
+        background-color: rgb(97, 97, 97);
+    
+        }
+        #nav1 ul{
+           list-style: none;
+           font-size: large;
+            margin-left: 650px;
+            margin-right: 620px;
+         text-align: center;
+             display: flex;
+             padding: 10px 20px;
+             justify-content: space-between;
+             /* margin-top: 320px; */
+        } 
+        .need img{
+            width: 1200px;
+            height: 250px;
+            margin-left: 170px;
+        }
+        .need p {
+            font-size: 20px;
+            font-weight: 600;
+            margin-left: 170px;
+
+        }
+        .exp {
+            /* border: 1px solid red; */
+            width: 1200px;
+            margin-left: 170px;
+            display: grid;
+            row-gap: 20px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .exp1 {
+            /* border: 1px solid red; */
+            width: 560px;
+            justify-content: space-between;
+            margin-left: 0px;
+            height: 250px;
+            border-radius: 25px;
+            background-image: url(./9355d11a-f088-4f10-b9df-72ea3ecf8e0b.webp);
+            background-size: 580px;
+            background-position-y: center;
+           
+        }
+        .exp3 {
+            /* border: 1px solid red; */
+            width: 560px;
+            justify-content: space-between;
+            margin-left: 0px;
+            height: 250px;
+            border-radius: 25px;
+            background-image: url(./5e9f8ee5-83dd-4dca-beca-61885323ce3c.webp);
+            background-size: 580px;
+            background-position-y: center;
+
+        }
+        .exp1 hr{
+            width: 20px;
+            float: left;
+            margin-left: 20px;
+            
+        } 
+        .exp1 p{
+            font-size: 15x;
+            width: 300px;
+            margin-left: 20px;
+        }
+        .exp1 h2{
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        .exp1 h5{
+            margin-top: 50px;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+        .exp2 {
+            /* border: 1px solid red; */
+            width: 560px;
+            justify-content: space-between;
+            margin-left: 0px;
+            height: 250px;
+            border-radius: 25px;
+            background-image: url(./9ce1d9a2-d3c6-4a19-91bd-028d52f58c84.webp);
+            background-size: 580px;
+            background-position-y: center;
+        }
+        .exp2 hr{
+            width: 20px;
+            float: left;
+            margin-left: 20px;
+            
+        } 
+        .exp2 p{
+            font-size: 15px;
+            width: 300px;
+            margin-left: 20px;
+        }
+        .exp2  h2{
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        .exp2 h5{
+               font-size: 15px;
+               margin-left: 20px;
+               margin-top: 50px;
+        }
+        .exp3 {
+            /* border: 1px solid red; */
+            width: 560px;
+            justify-content: space-between;
+            margin-left: 0px;
+            height: 250px;
+            border-radius: 25px;
+            background-image: url(./5e9f8ee5-83dd-4dca-beca-61885323ce3c.webp);
+            background-size: 580px;
+            background-position-y: center;
+
+        }
+        .exp3 hr{
+            width: 20px;
+            float: left;
+            margin-left: 20px;
+            
+        } 
+        .exp3 p{
+            font-size: 15px;
+            width: 300px;
+            margin-left: 20px;
+        }
+        .exp3  h2{
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        .exp3 h5{
+               font-size: 15px;
+               margin-left: 20px;
+               margin-top: 50px;
+        }
+        .exp4 {
+            /* border: 1px solid red; */
+            width: 560px;
+            justify-content: space-between;
+            margin-left: 0px;
+            height: 250px;
+            border-radius: 25px;
+            background-image: url(./84248218-f8c0-44d8-b2d6-be415b742b9a.webp);
+            background-size: 580px;
+            background-position-y: center;
+        }
+        .exp4 hr{
+            width: 20px;
+            float: left;
+            margin-left: 20px;
+            
+        } 
+        .exp4 p{
+            font-size: 15px;
+            width: 300px;
+            margin-left: 20px;
+        }
+        .exp4 h2{
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        .exp4 h5{
+               font-size: 15px;
+               margin-left: 20px;
+               margin-top: 50px;
+        }
+        .exp5 {
+            /* border: 1px solid red; */
+            width: 560px;
+            justify-content: space-between;
+            margin-left: 0px;
+            height: 250px;
+            border-radius: 25px;
+            background-image: url(./dcd1728e-d7dc-4952-b552-b1b1c97e9ac1.webp);
+            background-size: 580px;
+            background-position-y: center;
+        }
+        .exp5 hr{
+            width: 20px;
+            float: left;
+            margin-left: 20px;
+            
+        } 
+        .exp5 p{
+            font-size: 15px;
+            width: 300px;
+            margin-left: 20px;
+        }
+        .exp5 h2{
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        .exp5 h5{
+               font-size: 15px;
+               margin-left: 20px;
+               margin-top: 50px;
+        }
+        .exp6 {
+            /* border: 1px solid red; */
+            width: 560px;
+            justify-content: space-between;
+            margin-left: 0px;
+            height: 250px;
+            border-radius: 25px;
+            background-image: url(./18a8d3b2-d262-4f78-908b-79a55a40ef68.webp);
+            background-size: 580px;
+            background-position-y: center;
+        }
+        .exp6 hr{
+            width: 20px;
+            float: left;
+            margin-left: 20px;
+            
+        } 
+        .exp6 p{
+            font-size: 15px;
+            width: 300px;
+            margin-left: 20px;
+        }
+        .exp6  h2{
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        .exp6 h5{
+               font-size: 15px;
+               margin-left: 20px;
+               margin-top: 50px;
+        }
+        .exp7 {
+            /* border: 1px solid red; */
+            width: 560px;
+            justify-content: space-between;
+            margin-left: 0px;
+            height: 250px;
+            border-radius: 25px;
+            background-image: url(./1a2d8f7e-2c24-4cbf-88be-e2cf266dfa23.webp);
+            background-size: 580px;
+            background-position-y: center;
+        }
+        .exp7 hr{
+            width: 20px;
+            float: left;
+            margin-left: 20px;
+            
+        } 
+        .exp7 p{
+            font-size: 15px;
+            width: 300px;
+            margin-left: 20px;
+        }
+        .exp7  h2{
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        .exp7 h5{
+               font-size: 15px;
+               margin-left: 20px;
+               margin-top: 50px;
+        }
+        .exp8 {
+            /* border: 1px solid red; */
+            width: 560px;
+            justify-content: space-between;
+            margin-left: 0px;
+            height: 250px;
+            border-radius: 25px;
+            background-image: url(./aebc57c2-ee58-41f7-a854-00fb5c5d55f9.webp);
+            background-size: 580px;
+            background-position-y: center;
+        }
+        .exp8 hr{
+            width: 20px;
+            float: left;
+            margin-left: 20px;
+            
+        } 
+        .exp8 p{
+            font-size: 15px;
+            width: 300px;
+            margin-left: 20px;
+        }
+        .exp8  h2{
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        .exp8 h5{
+               font-size: 15px;
+               margin-left: 20px;
+               margin-top: 50px;
+        }
+        .food img{
+            height: 200px;
+            width: 1170px;
+            margin-left: 170px;
+            margin-top: 50px;
+        }
+        .help img{
+            height: 200px;
+            width: 1170px;
+            margin-left: 170px;
+            margin-top: 10px;
+        }
+        .bottom{
+    width: 100%;
+    background-color: rgb(242,244,248);
+}
+.bottom >h1{
+    margin-left: 10%;
+    padding-top: 30px;
+}
+.bottom >h4{
+    margin-left: 10%;
+}
+.bottom >div{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.bottom>div li{
+    padding: 20px;
+    font-size: 20px;
+    padding-left: 1%;
+    color: rgb(106,106,106);
+}
+.bottom>div >ul{
+    margin-left: 1%;
+}
+.bottom div ul >hr{
+    width: 90%;
+    border: 0;
+    height: .5px;
+    background: #000;
+    opacity: 0.2;
+}
+nav a{
+    color: wheat;
+}
+       
+    </style>
+</head>
+<body>
+    
+    <nav>
+       
+        <div class="logo"> <a href="index.html"><img src="www.cult.fit-images-v4awye/logo1.png" alt=""></a></div>
+        <ul>
+          <li><a href="fitness.html">FITNESS</a></li>
+          <li><a href="care.html">CARE</a></li>
+          <li><a href="mind.html">MIND</a></li>
+          <li><a href="index.html">STORE</a></li>
+         
+        </ul>
+        <select name="location" id="">
+          <option value="">location</option>
+          <option value="">Delhi</option>
+          <option value="">gurgaon</option>
+        </select>
+        <button>get app</button>
+    
+      </nav>
+    <!-- <div id="nav1">
+        <nav>
+            <ul>
+                <a href="care.html"><li>Therapy</li></a>
+                <a href="mindfulness.html"><li>MindFullNess</li></a>
+            </ul>
+        </nav>
+        
+    </div> -->
+    <div class="need">
+    <img src="f87f914f-7a53-4a80-b9b6-d85d80fae1cb.webp" alt="">
+    <br>
+    <br>
+    <p>EXPERTS TO HELP YOU</p>
+</div>
+<div class="exp">
+ <div class="exp1">
+    <h2>Therpy</h2>
+   <hr>
+   <br>
+    <p>Experts who helps solve emotional problems 1300</p>
+    <h5>1300</h5>
+ </div>
+ <div class="exp2">
+    <h2>Couple Therapy</h2>
+    <hr>
+    <br>
+    <p>Experts who helps solve emotional problems 1300</p>
+    <h5>1300</h5>
+ </div>
+ <div class="exp3">
+    <h2>Covid Stress</h2>
+   <hr>
+   <br>
+    <p>Experts who helps solve emotional problems 1300</p>
+    <h5>1300</h5>
+ </div>
+ <div class="exp4">
+    <h2>Better Sleep</h2>
+    <hr>
+    <br>
+    <p>Experts who helps solve emotional problems 1300</p>
+    <h5>1300</h5>
+ </div>
+ <div class="exp5">
+    <h2>Rise Confidence</h2>
+    <hr>
+    <br>
+    <p>Experts who helps solve emotional problems 1300</p>
+    <h5>1300</h5>
+ </div>
+ <div class="exp6">
+    <h2>Thrive at work</h2>
+  <hr>
+  <br>
+    <p>Experts who helps solve emotional problems 1300</p>
+    <h5>1300</h5>
+ </div>
+ <div class="exp7">
+    <h2>Healthy Relationships</h2>
+   <hr>
+   <br>
+    <p>Experts who helps solve emotional problems 1300</p>
+    <h5>1300</h5>
+ </div>
+ <div class="exp8">
+    <h2>Transform Your Thinking</h2>
+    <hr>
+    <br>
+    <p>Experts who helps solve emotional problems 1300</p>
+    <h5>1300</h5>
+ </div>
+
+
+</div>
+<div class="food">
+    <img src="./8d058e84-f098-4129-b107-dc81c19af2f1.webp" alt="">
+</div>
+<div class="help">
+    <img src="./7f7af73c-3ee3-46c1-9129-0df18dbb02ac.webp" alt="">
+</div>
+
+<footer>
+    <div id="footer">
+        <div>
+            <div id="footer1">
+                <img src="https://static.cure.fit/assets/images/cult-logo-white.svg" alt="">
+                <p>At cult.fit, we make group workouts fun, daily food healthy & tasty, mental fitness
+                    easy with
+                    yoga &
+                    meditation, and
+                    medical & lifestyle care hassle-free. #BeBetterEveryDay</p>
+            </div>
+            <div id="footer2">
+                <ul>
+                    <li>CONTACT US</li>
+                    <li>BLOG</li>
+                    <li>PARTNER.FIT</li>
+                    <li>TALKS</li>
+                    <li>CAREERS</li>
+                </ul>
+            </div>
+            <div id="footer3">
+                <ul>
+                    <li>CULTFIT FOR BUSINESSES</li>
+                    <li>CULT FRANCHISE</li>
+                    <li>CULT PASS NETWORK</li>
+                    <li>CORPORATE PARTNERSHIPS</li>
+                </ul>
+            </div>
+            <div id="footer4">
+                <img style="margin-top: 30px;" src="https://static.cure.fit/assets/images/app-store.svg"
+                    alt=""><br>
+                <img src="https://static.cure.fit/assets/images/play-store.svg" alt="">
+            </div>
+        </div>
+       
+    
+        <div id="footerEnd">
+            <div id="contact">
+                <div>Contect Us</div>
+                <div>FAQ</div>
+                <div>Term & Conditions</div>
+                <div>Privacy Policy</div>
+                <div>Refund Policy</div>
+            </div>
+            <div id="icon">
+                <div><img src="https://static.cure.fit/assets/images/facebook_icon_white.svg" alt="">
+                </div>
+                <div><img src="https://static.cure.fit/assets/images/twitter_icon_white.svg" alt="">
+                </div>
+                <div><img src="https://static.cure.fit/assets/images/instagram_icon_white.svg" alt="">
+                </div>
+                <div><img src="https://static.cure.fit/assets/images/youtube_icon_white_1.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

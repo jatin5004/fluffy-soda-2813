@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="popUpDiv" class="modal">
+
+        <!--login contents-->
+        <div class="modal-content">
+    
+            <!-- close button -->
+            <span class="close">&times;</span>
+    
+            <!-- login header images -->
+            <div class="loginHead">
+                <img src="https://static.cure.fit/assets/images/curefit_login_logo.svg" class="loginImg1">
+                <img src="https://static.cure.fit/assets/images/cult_name.svg" class="loginImg2">
+            </div>
+    
+            <!-- login input part -->
+            <div class="MiddlePart">
+                <div class="InputContainer">
+                    <div class="ConutryCodeContainer">
+                        <div class="CountryCode">+91 <img src="https://static.cure.fit/assets/images/arrow-clp.svg"
+                                class="arrow-image" alt=""></div>
+                    </div><input type="number" placeholder="Enter  your phone number" class="MobileInput"
+                        id="mobNum" onkeypress="validNumber()">
+                </div>
+    
+                <!-- login continue button -->
+                <div class="ActionContainer"><button class=" ContinueButton" onclick="goToProfile()"
+                        id="continueBtn">Continue</button>
+                </div>
+    
+                <!-- turm & condition line -->
+                <div class="Tnc">
+                    <div class="TncText">By Continuing you agree to the <a
+                            href="https://static.cult.fit/terms_cult.html" target="_blank" rel="noreferrer"
+                            class="TncAnchor">Terms of Services</a> and <a
+                            href="https://static.cult.fit/privacy_cult.html" target="_blank" rel="noreferrer"
+                            class="TncAnchor">Privacy policy</a>.</div>
+                </div>
+    
+                <!-- social media through login options -->
+                <div class="ActionContainerOtherMethods">
+                    <div class="ContinueButtonWhite">Continue with <div class="SocialMediaEmailsContainer"><img
+                                src="https://static.cure.fit/assets/images/google-logo.svg"
+                                class="SocialMediaIcon"><img
+                                src="https://static.cure.fit/assets/images/facebook.svg"
+                                class="SocialMediaIcon"><img src="https://static.cure.fit/assets/images/email.png"
+                                class="SocialMediaIcon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+</body>
+</html>
+<script src="script.js">
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
